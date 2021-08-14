@@ -1,0 +1,15 @@
+GET http://localhost:8082/articles
+
+###
+
+GET http://localhost:8082/articles/60b99c01990c822f40b193e5
+
+###
+
+POST http://localhost:8082/articles
+Content-Type: application/json
+
+{
+  "title": "Second Article",
+  "abstract": "Second Article Abstract"
+}
